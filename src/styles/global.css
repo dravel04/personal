@@ -4,7 +4,7 @@
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
 
- :root {
+:root {
 	--background-body: #fff;
   --text-main: #36393b;
   --text-secondary: #6b6f72;
@@ -13,13 +13,12 @@
 	/* --background-body: #212830;
 	--text-main: #fff;
 	--text-secondary: #ccc;
-	--primary-color: #548e9b;
 	--accent: #478BE6; 
 	--code: #333a41;	 */
 }
 
 :root.theme-dark {
-	--background-body: #202122;
+	--background-body: #212830;
   --text-main: #fff;
   --text-secondary: #ccc;
 	--accent: #478BE6;
