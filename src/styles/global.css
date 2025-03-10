@@ -5,25 +5,19 @@
  */
 
 :root {
-	/* --background-body: #fff;
+	--background-body: #fff;
   --text-main: #36393b;
   --text-secondary: #6b6f72;
   --accent: #2337ff;
-	--code: #dfe1e1; */
-	--background-body: #212830;
-	--text-main: #fff;
-	--text-secondary: #ccc;
-	--accent: #478BE6; 
-	--code: #3d474f;	
+	--code: #dfe1e1;
 }
-
-/* :root.theme-dark {
-	--background-body: #212830;
+:root.dark {
+  --background-body: #212830;
   --text-main: #fff;
   --text-secondary: #ccc;
 	--accent: #478BE6;
 	--code: #333a41;	
-} */
+}
 
 @font-face {
 	font-family: 'Atkinson';
