@@ -1,0 +1,63 @@
+baseURL: 'https://rafams.io/'
+languageCode: 'es-es'
+title: 'Rafael Marín Sánchez'
+theme: ["PaperMod"]
+enableEmoji: true
+env: production
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  ShowCodeCopyButtons: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  homeInfoParams:
+    enabled: true
+    Title: The Automation Craftsman
+  # profileMode:
+  #   enabled: true
+  #   title: " " # optional default will be site title
+  #   subtitle: "Automation Architech"
+  #   imageUrl: "img/me.webp" # optional
+  #   imageTitle: "profile" # optional
+  #   imageWidth: 200 # custom size
+  #   imageHeight: 200 # custom size
+    
+
+  socialIcons: # optional
+    - name: "linkedin"
+      url: "https://linkedin.com/in/rafmarsan"
+    - name: "github"
+      url: "https://github.com/dravel04"
+
+page:
+  nextPrevInSectionSortOrder: desc
+  nextPrevSortOrder: desc
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /archives/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: search
+      name: 🔍
+      url: /search/
+      weight: 40

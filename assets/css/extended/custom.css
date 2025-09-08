@@ -1,0 +1,16 @@
+.custom-profile {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: auto;
+  text-align: center;
+  flex-direction: column;
+}
+
+.custom-profile img {
+  border-radius: 50%;
+  width: 150px;         /* tamaño fijo (ajusta según quieras) */
+  height: 150px;        /* asegúrate de mantener cuadrado */
+}
