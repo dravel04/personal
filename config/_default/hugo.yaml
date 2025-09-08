@@ -61,3 +61,7 @@ menu:
       name: 🔍
       url: /search/
       weight: 40
+
+caches:
+  images:
+    dir: ':cacheDir/images'
