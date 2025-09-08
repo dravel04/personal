@@ -86,9 +86,9 @@ jobs:
             --cacheDir "${{ runner.temp }}/hugo_cache"
       - name: Change img reference
         run: |
-          ls -l ./public
-          sed -i 's|src="/assets/img/me.webp"|src="./assets/img/me.webp"|g' ./public/index.html
-          grep 'me.webp' ./public/index.html 
+          ls -lR ./public/assets
+          sed -i 's|src="/assets/img/me.webp"|src="./assets/img/me.webp"|g' index.html
+          grep 'me.webp' index.html 
       - name: Cache save
         id: cache-save
         uses: actions/cache/save@v4
