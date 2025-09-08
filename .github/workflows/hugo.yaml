@@ -88,7 +88,7 @@ jobs:
         run: |
           ls -l ./public
           sed -i 's|src="/assets/img/me.webp"|src="./assets/img/me.webp"|g' ./public/index.html
-          grep ./public/index.html 'me.webp'
+          grep 'me.webp' ./public/index.html 
       - name: Cache save
         id: cache-save
         uses: actions/cache/save@v4
